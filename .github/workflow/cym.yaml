@@ -42,5 +42,5 @@ jobs:
         with:
           username: "CYM"
           icon_emoji: ":robot_face:"
-          text:  "${{secrets.SLACK_MSG}} \nRepo: ${{ github.repositoryUrl }}\nImage name: ${{ secrets.DOCKERHUB_USERNAME }}/randimg:${{github.ref_name}}\nImage url: https://hub.docker.com/repository/docker/somik123/randimg"
+          text:  "${{secrets.SLACK_MSG}} \nRepo: ${{ github.repositoryUrl }}\nImage name: ${{ secrets.DOCKERHUB_USERNAME }}/randimg:${{github.ref_name}}\nImage url: https://hub.docker.com/repository/docker/candychu17/randimg"
           webhook_url: ${{ secrets.SLACK_WEBHOOK }}
